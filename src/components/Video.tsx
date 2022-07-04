@@ -1,4 +1,3 @@
-import { gql, useQuery } from "@apollo/client";
 import { DefaultUi, Player, Youtube } from "@vime/react";
 import {
   CaretRight,
@@ -7,45 +6,18 @@ import {
   Lightning,
 } from "phosphor-react";
 import "@vime/core/themes/default.css";
-
-const GET_LESSON_BY_SLUG = gql`
-  query GetLessonBySlug($slug: String) {
-    lesson(where: { slug: $slug }) {
-      title
-      videoId
-      description
-      teacher {
-        avatarURL
-        bio
-        name
-      }
-    }
-  }
-`;
-
-interface LessonBySlugResponse {
-  lesson: {
-    title: string;
-    videoId: string;
-    description: string;
-    teacher: {
-      bio: string;
-      avatarURL: string;
-      name: string;
-    } | null;
-  };
-}
+import { useGetLessonBySlugQuery } from "../graphql/generated";
 
 interface VideoProps {
   lessonSlug: string;
 }
 
 export function Video(props: VideoProps) {
-  const { data } = useQuery<LessonBySlugResponse>(GET_LESSON_BY_SLUG, {
+  const { data } = useGetLessonBySlugQuery({
     variables: { slug: props.lessonSlug },
   });
 
-  if (!data) {
+  if (!data?.lesson) {
     return (
       <div className="flex-1">
         <p>Carregando..</p>
