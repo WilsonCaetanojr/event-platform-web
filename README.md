@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://i.imgur.com/qcC0kPD.png" alt="event-platform" width="350"/>
+   <img src="https://i.imgur.com/5oUrXbI.png" alt="event-platform" width="350"/>
 </p>
 
 
@@ -14,7 +14,7 @@
 # :eyes: Demo Website
 👉  demo: https://event-platform-web-ruddy.vercel.app/
 
- <img src="https://i.imgur.com/U93kaM6.png" alt="event-platform" width="600"/>
+ <img src="https://i.imgur.com/Axtxf8k.png" alt="event-platform" width="650"/>
 
 # :computer: Technologies
 The technologies used in the project:
