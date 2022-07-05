@@ -7,7 +7,7 @@
 
 * [Demo Website](#eyes-demo-website)     
 * [Technologies](#computer-technologies)
-* [Features](#rocket-features)
+* [Objective](#rocket-objective)
 * [How to Run](#construction_worker-how-to-run)
 
 
@@ -25,9 +25,14 @@ The technologies used in the project:
 * [GraphCMS](https://graphcms.com/)      
 * [Apllo GraphQL](https://www.apollographql.com/docs/react/)      
 
-# :rocket: Features
+# :rocket: Objective
 
-*...
+The main objective of this project was to work with new tools, such as:
+* Communicating with GraphQL
+* Data caching with Apollo
+* Styling with tailwindcss
+
+The focus of this project was not field validations and access permission. So they weren't made.
 
 # :construction_worker: How to run
 ```bash
