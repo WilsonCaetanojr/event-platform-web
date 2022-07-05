@@ -2,7 +2,6 @@ import { useState, FormEvent } from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Logo } from "../assets/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 interface EventInput {
@@ -44,7 +43,7 @@ export function Subscribe() {
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
       <div className="w-full max-w-[1188px] flex items-center justify-between mt-28 mx-auto">
         <div className="max-w-[640px]">
-          <Logo />
+          <img src="https://i.imgur.com/LUabmiF.png" className="max-w-sm" />
 
           <h1 className="mt-8 text-[2.5rem] leading-tight">
             Construa uma{" "}
@@ -94,7 +93,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+      <img src="https://i.imgur.com/ns0gPJB.png" className="mt-10" alt="" />
     </div>
   );
 }
