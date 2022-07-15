@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://i.imgur.com/5oUrXbI.png" alt="event-platform" width="350"/>
+   <img src="https://i.imgur.com/AmVl6Xr.png" alt="event-platform" width="350"/>
 </p>
 
 
@@ -37,7 +37,7 @@ The focus of this project was not field validations and access permission. So th
 # :construction_worker: How to run
 ```bash
 # Clone Repository
-$ git clone https://github.com/WilsonCaetanojr/pomodoro-technique.git
+$ git clone https://github.com/WilsonCaetanojr/event-platform-web.git
 ```
 
 ### 💻 Run Web Project
